@@ -14,5 +14,7 @@ python3 coronavirus.py Italy Canada Mexico 'United States' 'Saudi Arabia' ...
 To see worldwide data, type python3 coronavirus.py World
 
 NOTE: PANDAS & CURL MUST BE INSTALLED, OTHERWISE THIS PROGRAM WILL NOT WORK CORRECTLY.
+
 To install Pandas, follow this guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
 To install Curl on Linux (it's automatically installed on Mac), type sudo apt-get install curl
