@@ -17,4 +17,4 @@ NOTE: PANDAS & CURL MUST BE INSTALLED, OTHERWISE THIS PROGRAM WILL NOT WORK CORR
 
 To install Pandas, follow this guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
 
-To install Curl on Linux (it's automatically installed on Mac), type sudo apt-get install curl
+To install Curl on Linux (Macs come with Curl installed already), type sudo apt-get install curl
