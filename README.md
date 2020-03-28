@@ -1,4 +1,4 @@
-**For those who prefer Jupyter notebooks, I have included one for convenience.**
+**For those who prefer Jupyter notebooks, I have included one for convenience. To download it, click on "Raw" and then copy the text into your favorite text editor. Then save the file with the extension .ipynb and open it in Jupyter Notebooks.**
 
 This project is a python script (that updates daily) that will allow Mac/Linux users to run it in Terminal and view the current stats of coronavirus cases/deaths in any country, or worldwide. This task can also be automated in crontab.
 
