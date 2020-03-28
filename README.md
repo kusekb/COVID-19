@@ -5,7 +5,7 @@ The dataset is updated daily at 10:00 AM, and can be manually downloaded here: h
 To get this process to run automatically, edit this line into crontab:
 15 10 * * * current.sh
 
-And make sure to use chmod -x current.sh so that the bash file becomes an executable. You can also edit current.sh to have any countries that you desire. Make sure to look at the dataset to see which countries are able to be entered in. Some don't have any reported cases!
+And make sure to use chmod -x current.sh so that the bash file becomes an executable. You can also edit current.sh to have any countries that you desire (also don't forget to edit the directories!). Make sure to look at the dataset to see which countries are able to be entered in. Some don't have any reported cases!
 
 To run this program on its own, type python3 coronavirus.py with all countries desired entered like so (with countries that have spaces entered with single quotes):
 
