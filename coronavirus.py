@@ -15,7 +15,7 @@ def COVID_TERROR_PANIC_RUN_FIRE_EVERYWHERE(country):
 #Displays list of countries if you type 'Help'
 	if country == 'Help':
 		print(covid_data.location.unique())
-		return false;
+		return False;
 
 #If the country isn't valid then return False
 	if country not in covid_data['location'].values:
