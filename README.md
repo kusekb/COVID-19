@@ -9,7 +9,7 @@ The dataset is updated daily at 10:00 AM, and can be manually downloaded here: h
 To get this process to run automatically, edit this line into crontab:
 15 10 * * * current.sh
 
-This will make the program run at 10:15 AM every day, which should account for any late uploads.
+This will make the program run at 10:15 AM every day, which should account for any late uploads. It will also save the output to a text file for easy reading.
 
 And make sure to use chmod +x current.sh so that the bash file becomes an executable. You can also edit current.sh to have any countries that you desire (also don't forget to edit the directories!). Make sure to look at the dataset to see which countries are able to be entered in. Some don't have any reported cases!
 
