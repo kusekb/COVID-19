@@ -17,10 +17,10 @@ To run this program on its own, follow this guide or type python3 coronavirus.py
 
 ![How to use](https://kusekb.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-28-at-7.44.36-PM.png)
 
-NOTE: PANDAS & CURL MUST BE INSTALLED, OTHERWISE THIS PROGRAM WILL NOT WORK CORRECTLY.
+NOTE: Pandas & cURL MUST BE INSTALLED, OTHERWISE THIS PROGRAM WILL NOT WORK CORRECTLY.
+
+To install cURL on Linux (Macs come with Curl installed already), type sudo apt-get install curl
 
 To install Pandas, follow this guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
 
 If you are on a Mac and encounter the "no module named pandas" error while trying to install, you will need to fix this by installing pyenv. This error occurs because the default Python version for MacOS is 2.7. Follow this guide for pyenv: https://github.com/pyenv/pyenv and set your global version to 3.7.4 (or whatever the latest version is when you read this).
-
-To install Curl on Linux (Macs come with Curl installed already), type sudo apt-get install curl
