@@ -1,3 +1,8 @@
+#This version has color codes and is meant to be run from the terminal! 
+#It has colors to make the output more friendly and readable.
+#If you want to have crontab output to a .txt file, do NOT use this version!
+#Instead, use basic_coronavirus.py
+
 import pandas as pd
 import datetime as dt
 import sys
