@@ -1,4 +1,5 @@
 #This version has all color codes removed in order to make .txt output look correct!
+#If you want to play around with this program in Terminal, it's highly suggested to use the regular version!
 
 import pandas as pd
 import datetime as dt
