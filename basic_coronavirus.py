@@ -1,3 +1,5 @@
+# This version has all color codes removed in order to make .txt output look correct!
+
 import pandas as pd
 import datetime as dt
 import sys
