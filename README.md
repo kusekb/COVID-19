@@ -21,4 +21,6 @@ NOTE: PANDAS & CURL MUST BE INSTALLED, OTHERWISE THIS PROGRAM WILL NOT WORK CORR
 
 To install Pandas, follow this guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
 
+If you are on a Mac and encounter the "no module named pandas" error while trying to install, you will need to fix this by installing pyenv. Follow this guide for pyenv: https://github.com/pyenv/pyenv
+
 To install Curl on Linux (Macs come with Curl installed already), type sudo apt-get install curl
