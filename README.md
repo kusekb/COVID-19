@@ -11,7 +11,9 @@ To get this process to run automatically, edit this line into crontab:
 
 This will make the program run at 10:15 AM every day, which should account for any late uploads. It will also save the output to a text file for easy reading.
 
-And make sure to use chmod +x current.sh so that the bash file becomes an executable. You can also edit current.sh to have any countries that you desire (also don't forget to edit the directories!). Make sure to look at the dataset to see which countries are able to be entered in. Some don't have any reported cases!
+**If you're going to make crontab output to a .txt file, use basic_coronavirus.py instead! Otherwise, you will have color commands messing up the output!**
+
+Make sure to use chmod +x current.sh so that the bash file becomes an executable. You can also edit current.sh to have any countries that you desire (also don't forget to edit the directories!). Make sure to look at the dataset to see which countries are able to be entered in. Some don't have any reported cases!
 
 To run this program on its own, follow this guide or type python3 coronavirus.py to see this screen yourself:
 
