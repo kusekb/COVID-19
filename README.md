@@ -26,3 +26,5 @@ To install cURL on Linux (Macs come with Curl installed already), type sudo apt-
 To install Pandas, follow this guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
 
 If you are on a Mac and encounter the "no module named pandas" error while trying to install, you will need to fix this by installing pyenv. This error occurs because the default Python version for MacOS is 2.7. Follow this guide for pyenv: https://github.com/pyenv/pyenv and set your global version to 3.7.4 (or whatever the latest version is when you read this).
+
+*Also note that the color-added Python3 script is optimized for Linux terminal. If using a Mac, make sure to change out of the "Basic" white theme if you haven't already, otherwise some output will not look right.*
